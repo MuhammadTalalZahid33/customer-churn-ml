@@ -1,0 +1,7 @@
+#Required packages for the project:
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+jupyter
