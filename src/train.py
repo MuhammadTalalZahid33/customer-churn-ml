@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
-from config import (
+from src.config import (
     DATA_PATH,
     MODEL_DIR,
     MODEL_PATH,
@@ -15,7 +15,7 @@ from config import (
     TEST_SIZE,
 )
 
-from preprocessing import (
+from src.preprocessing import (
     load_data,
     clean_data,
     prepare_features_and_target,
